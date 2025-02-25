@@ -6,7 +6,7 @@ GOOGLE_API_KEY = "YOUR API_KEY"  # Replace with your actual API key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # System Instruction
-sys_instruction = "Only review the code if you get input, otherwise politely inform the user."
+sys_instruction = "Only review the python code if you get input, otherwise politely inform the user."
 
 # Streamlit UI
 st.title("AI Code Reviewer ⚛️")
